@@ -5,8 +5,8 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
+ # Books: books  # 豆瓣书单
+ # Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -38,7 +38,7 @@ site:
 
 # config
 config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-black
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: false # 是否开启当前菜单高亮显示
@@ -107,7 +107,7 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: pollux1314  # github username
 
 # Comment
 # Gitment
@@ -196,51 +196,50 @@ profile:
   articleSelfBlock: false # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: Bert_Shen
+  author_title: Developer
+  author_description: 追求卓越。
+  location: Wuxi, China
+  follow: https://github.com/pollux1314
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/pollux1314
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
+    Java: ★★★★☆
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
     Javascript: ★★★☆☆
     HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    Vue: ★★★☆☆
+    Python: ★★☆☆☆
+    Go: ★☆☆☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/pollux1314
+#    Blog: http://blog.cofess.com
+#    微博: http://weibo.com/cofess
+#    花瓣: http://huaban.com/cofess
+#    Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
+    - Java后端
     - Web前端
-    - 网页重构
+    - Mysql
+    - Python
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
-      date: 2016
+      link: https://github.com/pollux1314
+      date: 2022
   # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+#  projects:
+#    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+#    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
